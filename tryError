@@ -1,0 +1,37 @@
+//ex1
+//  for(let i=1;i<11;i++){
+//     console.log(i)
+//     try {
+//    if(i==5)
+//     {throw new Error("Boo")}}
+//    catch(error){console.error(error)}};
+
+
+
+//ex2
+//  const user={name:"Misha",
+//     age:25,
+//     setting:{color:"blue"}
+//  };
+//   try{
+//      console.log("Creating User....")
+//  console.log(user.profile.color)
+
+//   } catch(error){ console.error(error)}
+ 
+//ex3:
+
+let number =1337
+let randomNumber=number+Math.floor(Math.random()*1000)
+ try{
+    console.log(randomNumber)
+    if (randomNumber>2000){console.log("you win ")}
+        else  {throw new Error("you lose")}
+ }
+catch(error){console.error(error)
+    console.error(`we lose at the number:${number}`)
+}
+
+
+
+
